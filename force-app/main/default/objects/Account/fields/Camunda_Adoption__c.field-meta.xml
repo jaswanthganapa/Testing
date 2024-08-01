@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Camunda_Adoption__c</fullName>
+    <description>Account planning field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>There is strong adoption on either CE, Prof Plan or Enterprise. We are connected to at least one champion who is able and willing to tell a Camunda related Success Story.</inlineHelpText>
+    <label>Camunda Adoption</label>
+    <length>10000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

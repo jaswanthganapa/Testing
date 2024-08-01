@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Common_Room_Org_Link__c</fullName>
+    <description>Link to organization&apos;s profile in Common Room.  Populated by CommonRoom sync</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Org&apos;s Common Room Profile</inlineHelpText>
+    <label>Common Room Org Link</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

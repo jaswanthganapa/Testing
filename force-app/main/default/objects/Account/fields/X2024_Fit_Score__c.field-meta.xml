@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2024_Fit_Score__c</fullName>
+    <description>This is updated from the HDP 1x daily.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reflection of ICP and PAR</inlineHelpText>
+    <label>2024 Fit Score</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

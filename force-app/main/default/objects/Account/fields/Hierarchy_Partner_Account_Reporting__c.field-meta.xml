@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hierarchy_Partner_Account_Reporting__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Hierarchy Partner Account Reporting Record</description>
+    <externalId>false</externalId>
+    <label>Hierarchy Partner Account Reporting</label>
+    <referenceTo>PartnerAccountReporting__c</referenceTo>
+    <relationshipLabel>Accounts</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

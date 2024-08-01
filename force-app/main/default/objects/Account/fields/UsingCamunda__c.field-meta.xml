@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UsingCamunda__c</fullName>
+    <description>Based on HG BPM field and Customer Status</description>
+    <externalId>false</externalId>
+    <formula>if(
+
+or(
+includes( BPM_Product__c ,&quot;Camunda&quot;),
+ ispickval(RelationshipStatus__c ,&quot;active&quot;),
+ HowIsCamundaBeingUsed__c=&quot;In Production&quot;,
+ HowIsCamundaBeingUsed__c=&quot;In Development&quot;
+ 
+)
+ ,TRUE,FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>UsingCamunda</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

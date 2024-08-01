@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EE_Active_Accounts_RoW</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ARR__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CustomerSuccessOwner__c</columns>
+    <columns>CSMType__c</columns>
+    <columns>ACCOUNT.LAST_ACTIVITY</columns>
+    <columns>ContractExpirationDate__c</columns>
+    <columns>RenewalForecast__c</columns>
+    <columns>SalesTerritoryAE__c</columns>
+    <columns>OpenOpportunities__c</columns>
+    <columns>CommentsContract__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RelationshipStatus__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.StandardAccount</value>
+    </filters>
+    <filters>
+        <field>SalesTeam__c</field>
+        <operation>equals</operation>
+        <value>DACH,RoW</value>
+    </filters>
+    <label>My Customers_All Accounts - RoW + DACH</label>
+</ListView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RenewalForecast__c</fullName>
+    <externalId>false</externalId>
+    <label>Renewal Forecast</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>At Risk</fullName>
+                <default>false</default>
+                <label>At Risk</label>
+            </value>
+            <value>
+                <fullName>Churn</fullName>
+                <default>false</default>
+                <label>Churn</label>
+            </value>
+            <value>
+                <fullName>Commit</fullName>
+                <default>false</default>
+                <label>Commit</label>
+            </value>
+            <value>
+                <fullName>At Risk - Covid-19</fullName>
+                <default>false</default>
+                <label>At Risk - Covid-19</label>
+            </value>
+            <value>
+                <fullName>Termination Received - Trying to Win Back</fullName>
+                <default>false</default>
+                <label>Termination Received - Trying to Win Back</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

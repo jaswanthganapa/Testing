@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Drift_Priority_Accounts_Do_Not_Delete</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>SDROwner__c</columns>
+    <columns>Target__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SDROwner__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Drift - Priority Accounts Do Not Delete</label>
+</ListView>

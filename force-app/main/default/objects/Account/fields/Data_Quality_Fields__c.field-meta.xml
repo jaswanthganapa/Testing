@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Quality_Fields__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Data_Quality_Score__c=7,&quot;All Key Fields filled in&quot;,&quot;Missing: &quot;&amp;IF(ISPICKVAL(EmployeesRange__c,&quot;&quot;),&quot;Employees Range, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(LEN(EmailDomain__c)=0,&quot;Email Domain, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(LEN(Website)=0,&quot;Website, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(ISPICKVAL(Industry,&quot;&quot;),&quot;Industry, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(ISPICKVAL(SalesTeam__c,&quot;&quot;),&quot;Sales Team, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(ISPICKVAL(SalesTerritoryAE__c,&quot;&quot;),&quot;Sales Territory AE, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(LEN(BillingStreet)=0||LEN(BillingCity)=0||LEN(BillingPostalCode)=0||LEN(BillingCountry)=0,&quot;Complete Address&quot;,&quot;&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Data Quality Fields</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

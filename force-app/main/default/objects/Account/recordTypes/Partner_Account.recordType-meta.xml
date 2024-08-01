@@ -1,0 +1,2510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Account</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Partner_Account_Compact_Layout</compactLayoutAssignment>
+    <label>Partner Account</label>
+    <picklistValues>
+        <picklist>ABX_Highest_Stage__c</picklist>
+        <values>
+            <fullName>1 - Targeted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 - Aware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - Engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 - Won</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ABX_Initial_Stage__c</picklist>
+        <values>
+            <fullName>1 - Targeted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 - Aware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - Engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 - Won</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ABX_Stage__c</picklist>
+        <values>
+            <fullName>1 - Targeted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 - Aware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - Engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 - Won</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ABX_Type__c</picklist>
+        <values>
+            <fullName>Existing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Allbound_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BPM_Product__c</picklist>
+        <values>
+            <fullName>ARIS Architect %26 ARIS Designer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARIS Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARIS Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARIS Enterprise Architecture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARIS Process Governance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARIS Simulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWS Step Functions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alfresco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apache Airavata</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apache Airflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aurea Monitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aurea Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automation Anywhere</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automic Automation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avolution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Axway Sentinel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BP Logix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BiZZdesign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BizFlow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bizagi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blue Prism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blue Prism Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BlueKanGo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blueprint %28Unspecified product%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bonita BPM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bradford Networks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camunda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casewise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Celaton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Celonis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comindware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conductor Searchlight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conga Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cora SeQuence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DocuSign CLM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Everteam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flowable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flowable Work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FortressIQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HCL Notes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM Blueworks Live</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM Business Process Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM Case Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM Cloud Paks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM Lotus Notes %28HCL Notes%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM Operational Decision Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM Rational RequisitePro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM WebSphere Business Modeler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infor Ming%2Ele</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infor Risk %26 Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informatica Business Process Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intalio BPMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intellect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBoss Enterprise Application Platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBoss Enterprise BRMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBoss Enterprise Web Server</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBoss Enterprise Web Server %28EWS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBoss Seam Framework</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K2 Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K2 Five</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K2 blackpearl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KissFlow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kofax MarkView</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kofax RPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kryon RPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laserfiche</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LivePlan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEGA Hopex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mendix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micro Focus Business Availability Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micro Focus Business Process Monitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micro Focus Solutions Business Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Azure Logic Apps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetSuite SuiteFlex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nintex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OmniFlow iBPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ontraport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OpenText 360 for SharePoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OpenText Cordys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OpenText LiquidOffice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OpenText MBPM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OpenText ProVision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OpenText Process Suite Platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oracle BPM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orbus iServer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OutSystems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNMsoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pega BPM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PegaRULES Process Commander %28PRPC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pegasystems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ProDiscovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ProcessGold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QPR ProcessAnalyzer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFPIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rational System Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red Hat Process Automation Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rocket LegaSuite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAG webMethods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP Business Workflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP Innovation Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP Leonardo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP Process Orchestration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP SE Enterprise Applications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Enterprise Applications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce%2Ecom Lightning Platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ServicePRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicenow Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siemens Teamcenter Visualization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signavio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SirionLabs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartBPM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software AG ARIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TIBCO Business Studio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TIBCO Cloud Nimbus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOTVS Fluig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tray%2Eio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UiPath</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WorkFusion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WorkflowGen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iGrafx</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>webMethods AgileApps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>webMethods Optimize for Process</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CSMStatus__c</picklist>
+        <values>
+            <fullName>Early Stage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trusted Advisor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CSMType__c</picklist>
+        <values>
+            <fullName>Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Common Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pooled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CSM_support_for_CoEs__c</picklist>
+        <values>
+            <fullName>CSM influenced CoE setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planning to engage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presented CoE concept</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting - Customer has setup CoE without CSM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ChurnReasons__c</picklist>
+        <values>
+            <fullName>Canceled due to nonpayment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Migrated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer canceled due to COVID-19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer in financial distress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downgraded to CE version</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merger%2FAcquisition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Projects Canceled%2FDelayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Replaced by Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supported Evaluation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Clearbit_Country_Code__c</picklist>
+        <values>
+            <fullName>UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Clearbit_Country__c</picklist>
+        <values>
+            <fullName>Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Kingdom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Clearbit_Industry__c</picklist>
+        <values>
+            <fullName>Aerospace %26 Defense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Freight %26 Logistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Airlines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automotive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beverages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Building Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capital Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capital Markets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Services %26 Supplies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction %26 Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Discretionary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Staples</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Containers %26 Packaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diversified Consumer Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diversified Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diversified Telecommunication Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electric Utilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronic Equipment%2C Instruments %26 Components</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Staples Retailing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Utilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Care Equipment %26 Supplies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Care Providers %26 Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotels%2C Restaurants %26 Leisure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Household Durables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial Conglomerates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet Software %26 Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leisure Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Life Sciences Tools %26 Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metals %26 Mining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paper %26 Forest Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmaceuticals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewable Electricity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retailing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Road %26 Rail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semiconductors %26 Semiconductor Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialized Consumer Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology Hardware%2C Storage %26 Peripherals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Textiles%2C Apparel %26 Luxury Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tobacco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trading Companies %26 Distributors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wireless Telecommunication Services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Clearbit_State_Code__c</picklist>
+        <values>
+            <fullName>GP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Clearbit_Tech_Category__c</picklist>
+        <values>
+            <fullName>account_based_marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>accounting_and_finance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CoE_Implemented__c</picklist>
+        <values>
+            <fullName>Developing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dont know</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No - not planned or planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No - open to the idea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CoE_Partner_involvement__c</picklist>
+        <values>
+            <fullName>No partner involved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - Partner involved in CoE setup</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CoE_responsibilities__c</picklist>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enablement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evangelism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Governance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Providing managed service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution delivery</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CoE_size_in_FTEs__c</picklist>
+        <values>
+            <fullName>10%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 or less</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6-9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ContractualBasis__c</picklist>
+        <values>
+            <fullName>Limited by Cores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited by FNI%2FEDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited by Scope%2FProject</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unlimited</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Customer_Segment__c</picklist>
+        <values>
+            <fullName>Focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Key</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CustomerStage__c</picklist>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PostProduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PreProduction</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Segment_Change_Reason__c</picklist>
+        <values>
+            <fullName>Demoted because lack of Expand Pipeline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demoted because of other reasons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promoted because of other reasons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Segment assigned based on ARR %26 Year as Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Segment_Change_Type__c</picklist>
+        <values>
+            <fullName>Demotion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promotion</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Segment__c</picklist>
+        <values>
+            <fullName>Focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Key</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EmployeesRange__c</picklist>
+        <values>
+            <fullName>10%2E000%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1001-5000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>101-1000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21-100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5001-10%2E000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less than 20</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Enterprise_Customer__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ExpansionPotential__c</picklist>
+        <values>
+            <fullName>Actively look for new projects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expansion in the next 3 months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migrate to scope based license</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No focus%2C wait for project success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other%2C see comments</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ExportCompliance__c</picklist>
+        <values>
+            <fullName>Compliant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliant with Conditions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Compliant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>G2Crowd__Active__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>G2Crowd__CustomerPriority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>G2Crowd__SLA__c</picklist>
+        <values>
+            <fullName>Bronze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>G2Crowd__UpsellOpportunity__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gainsight_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HG_Employee_Band__c</picklist>
+        <values>
+            <fullName>1%2E Less than 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E 100 to 500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E 500 to 1%2C000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E 1%2C000 to 4%2C000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E 4%2C000 to 8%2C000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E 8%2C000 to 12%2C000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2E 12%2C000 and above</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%2E Under review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HG_Revenue_Band__c</picklist>
+        <values>
+            <fullName>1%2E Less than %2410m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E %2410m to %2425m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E %2425m to %2450m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E %2450m to %24250m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E %24250m to %24500m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E %24500m to %241bn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2E %241bn to %245bn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%2E %245bn and above</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E Under review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Banking %26 Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting %26 Business Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Life Sciences%2C Pharma%2C %26 Biotech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics %26 Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Sector%2C Government and Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software %26 Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications%2C Media %26 Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry__c</picklist>
+        <values>
+            <fullName>Automotive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking %26 Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting %26 Business Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Life Sciences%2C Pharma%2C %26 Biotech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics %26 Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Sector%2C Government%2C Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software %26 Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications%2C Media %26 Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IsABMCohorts__c</picklist>
+        <values>
+            <fullName>2021-Q2-04-April</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2021-Q2-06-June</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2021-Q3-08-August</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q1%2E0-2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q1%2E1-2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q1%2E2-2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q2%2E1-2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q2%2E1-2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q2%2E2-2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q2%2E2-2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q3%2E1-2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q3%2E1-2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q3%2E2-2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q3%2E2-2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q4%2E1-2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q4%2E1-2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q4%2E2-2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q4%2E2-2022</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ListedOnCamundaCom__c</picklist>
+        <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Allowed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Removed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Removed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Do</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lunch_Learn_Status__c</picklist>
+        <values>
+            <fullName>1%2E Selected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E Organized</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E Declined</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PONumberSetup__c</picklist>
+        <values>
+            <fullName>No PO needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO changes per period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO is permanently valid</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Agreement_Territory__c</picklist>
+        <values>
+            <fullName>APAC %28Other%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APAC %28Priority%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benelux</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMEA %28Other%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nordics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UKI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Manager_Type__c</picklist>
+        <values>
+            <fullName>Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OEM%2FTechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional SI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Maturity_Level__c</picklist>
+        <values>
+            <fullName>1- Recruit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2- Onboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3- Enable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4- Engage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>x-Former Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Recruitment_Stage__c</picklist>
+        <values>
+            <fullName>1%2E Qualify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E Nurture</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>3%2E Build Business Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E Negotiate Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E Closed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Tier__c</picklist>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold Certified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum Certified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Type__c</picklist>
+        <values>
+            <fullName>Distributor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hyperscaler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional SI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Professional_Customer__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProspectingStatus__c</picklist>
+        <values>
+            <fullName>Growthonics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Targeted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reference_in_Contract__c</picklist>
+        <values>
+            <fullName>Callable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Study</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Description</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No reference client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Press Release</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Testimonial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>APAC %28Other%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APAC %28Priority%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benelux</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMEA %28Other%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nordics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UKI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RelationshipStatus__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RenewalForecast__c</picklist>
+        <values>
+            <fullName>At Risk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Churn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Termination Received - Trying to Win Back</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SalesTeam__c</picklist>
+        <values>
+            <fullName>APAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMEA N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMEA W</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA - Corporate %26 LATAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA - Enterprise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SalesTerritoryAE__c</picklist>
+        <values>
+            <fullName>APAC-CORP-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APAC-ENT-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BNL-CORP-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BNL-ENT-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DACH-CORP-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DACH-CORP-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DACH-CORP-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DACH-ENT-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DACH-ENT-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DACH-ENT-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DACH-ENT-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FR-ENT-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FR-ENT-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IEE-CORP-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LATAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEA-CORP-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-CORP-CANADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-CORP-CENTRAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-CORP-NORTHEAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-CORP-SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-CORP-SOUTHEAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-CORP-WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-ENT-NAM-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-ENT-NAM-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-ENT-NAM-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-ENT-NAM-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-ENT-NAM-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-ENT-NAM-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-ENT-STAT-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-ENT-STAT-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA-ENT-UNA-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NORD-ENT-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UKI-ENT-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UKI-ENT-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UKI-STAT-1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segment_Change_Reason__c</picklist>
+        <values>
+            <fullName>Demoted because of other reasons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demoted due to falling behind KPIs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promoted because of other reasons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promoted due to tracking ahead of KPIs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Segment assigned based on Partner KPI result</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Target__c</picklist>
+        <values>
+            <fullName>Tier 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Theater__c</picklist>
+        <values>
+            <fullName>AMERICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMEA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ultimate_Parent_Partner_Segment__c</picklist>
+        <values>
+            <fullName>Focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Key</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ZoominfoRange__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Zoominfo_Business_Model__c</picklist>
+        <values>
+            <fullName>B2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2C</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Zoominfo_Industry__c</picklist>
+        <values>
+            <fullName>Test</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Zoominfo_Ownership_Type__c</picklist>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>fferpcore__SalesTaxStatus__c</picklist>
+        <values>
+            <fullName>Exempt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exempt for Qualifying Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taxable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>fferpcore__TaxCountryCode__c</picklist>
+        <values>
+            <fullName>BE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>fferpcore__VatStatus__c</picklist>
+        <values>
+            <fullName>EC Non-registered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EC Registered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Export</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>pse__Services_Billing_Time_Period_Type__c</picklist>
+        <values>
+            <fullName>Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Year</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

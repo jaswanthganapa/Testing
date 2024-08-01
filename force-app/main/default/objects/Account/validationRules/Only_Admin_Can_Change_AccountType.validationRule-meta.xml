@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Admin_Can_Change_AccountType</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+$Setup.GlobalApplicationSettings__c.RunValidationRules__c,ISCHANGED(RecordTypeId),NOT(ISNEW()),AND($Profile.Name &lt;&gt; &apos;System Administrator&apos;,    NOT(CONTAINS($UserRole.Name, &quot;Partner&quot;)) ))</errorConditionFormula>
+    <errorMessage>Editing Account Type can only be completed by Salesforce Administrators. Please contact revops@camunda.com.</errorMessage>
+</ValidationRule>

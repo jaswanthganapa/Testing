@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Potential_Target_Accounts_in_TBH_Region</fullName>
+    <columns>Fit_Engagement_Score__c</columns>
+    <columns>FitScoreABC__c</columns>
+    <columns>EngagementScoreABC__c</columns>
+    <columns>RelationshipStatus__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Industry__c</columns>
+    <columns>HG_Revenue_Band__c</columns>
+    <columns>BPM_Product__c</columns>
+    <columns>HG_IT_Budget__c</columns>
+    <columns>Target__c</columns>
+    <columns>SDROwner__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+    <columns>Parent_Account_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.StandardAccount</value>
+    </filters>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>APAC (Other),APAC (Priority),Benelux,DACH,EMEA (Other),France,LATAM,NA,Nordics,UKI</value>
+    </filters>
+    <filters>
+        <field>RelationshipStatus__c</field>
+        <operation>notEqual</operation>
+        <value>Former</value>
+    </filters>
+    <label>Potential Target Accounts</label>
+</ListView>

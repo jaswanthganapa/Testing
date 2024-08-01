@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Goals__c</fullName>
+    <description>How many has a goals have been added to Gainsight for customer
+
+Source: GS Rules Engine
+
+Owner: CS</description>
+    <externalId>false</externalId>
+    <label># Customer Goals</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

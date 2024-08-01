@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Sourced_Bookings_Achieved__c</fullName>
+    <description>Percent of Partner Sourced Booking targets achieved by the partner for its current Segment (Key or Focus)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Percent of Partner Sourced Booking targets achieved by the partner for its current Segment (Key or Focus)</inlineHelpText>
+    <label>% Partner Sourced Bookings Achieved</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

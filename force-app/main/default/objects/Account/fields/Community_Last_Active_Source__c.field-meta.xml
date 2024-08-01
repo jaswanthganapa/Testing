@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_Last_Active_Source__c</fullName>
+    <description>Where the most recent activity associated with the organization occured. Populated by CommonRoom sync</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Most recently engaged community platform</inlineHelpText>
+    <label>Community - Last Active Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

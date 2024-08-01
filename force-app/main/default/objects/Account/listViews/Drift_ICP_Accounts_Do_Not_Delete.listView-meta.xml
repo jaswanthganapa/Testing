@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Drift_ICP_Accounts_Do_Not_Delete</fullName>
+    <columns>FitScoreABC__c</columns>
+    <columns>EngagementScoreABC__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Industry__c</columns>
+    <columns>HG_Revenue_Band__c</columns>
+    <columns>BPM_Product__c</columns>
+    <columns>NumberofPageViews__c</columns>
+    <columns>Target__c</columns>
+    <columns>SDROwner__c</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>EmailDomain__c</columns>
+    <columns>ACCOUNT.URL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ICP__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Target__c</field>
+        <operation>notEqual</operation>
+        <value>Customer Target,Prospect Target</value>
+    </filters>
+    <label>Drift -  ICP Accounts (Do Not Delete)</label>
+</ListView>

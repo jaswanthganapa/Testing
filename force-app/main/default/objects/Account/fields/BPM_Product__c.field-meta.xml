@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BPM_Product__c</fullName>
+    <description>All BPM products identified by HG Insights</description>
+    <externalId>false</externalId>
+    <inlineHelpText>BPM Product identified by HG</inlineHelpText>
+    <label>HG BPM</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alfresco</fullName>
+                <default>false</default>
+                <label>Alfresco</label>
+            </value>
+            <value>
+                <fullName>Apache Airavata</fullName>
+                <default>false</default>
+                <label>Apache Airavata</label>
+            </value>
+            <value>
+                <fullName>Apache Airflow</fullName>
+                <default>false</default>
+                <label>Apache Airflow</label>
+            </value>
+            <value>
+                <fullName>Appian</fullName>
+                <default>false</default>
+                <label>Appian</label>
+            </value>
+            <value>
+                <fullName>ARIS Architect &amp; ARIS Designer</fullName>
+                <default>false</default>
+                <label>ARIS Architect &amp; ARIS Designer</label>
+            </value>
+            <value>
+                <fullName>ARIS Cloud</fullName>
+                <default>false</default>
+                <label>ARIS Cloud</label>
+            </value>
+            <value>
+                <fullName>ARIS Connect</fullName>
+                <default>false</default>
+                <label>ARIS Connect</label>
+            </value>
+            <value>
+                <fullName>ARIS Enterprise Architecture</fullName>
+                <default>false</default>
+                <label>ARIS Enterprise Architecture</label>
+            </value>
+            <value>
+                <fullName>ARIS Process Governance</fullName>
+                <default>false</default>
+                <label>ARIS Process Governance</label>
+            </value>
+            <value>
+                <fullName>ARIS Simulation</fullName>
+                <default>false</default>
+                <label>ARIS Simulation</label>
+            </value>
+            <value>
+                <fullName>Aurea Monitor</fullName>
+                <default>false</default>
+                <label>Aurea Monitor</label>
+            </value>
+            <value>
+                <fullName>Aurea Process</fullName>
+                <default>false</default>
+                <label>Aurea Process</label>
+            </value>
+            <value>
+                <fullName>Automation Anywhere</fullName>
+                <default>false</default>
+                <label>Automation Anywhere</label>
+            </value>
+            <value>
+                <fullName>Automic Automation</fullName>
+                <default>false</default>
+                <label>Automic Automation</label>
+            </value>
+            <value>
+                <fullName>Avolution</fullName>
+                <default>false</default>
+                <label>Avolution</label>
+            </value>
+            <value>
+                <fullName>AWD</fullName>
+                <default>false</default>
+                <label>AWD</label>
+            </value>
+            <value>
+                <fullName>AWS Step Functions</fullName>
+                <default>false</default>
+                <label>AWS Step Functions</label>
+            </value>
+            <value>
+                <fullName>Axway Sentinel</fullName>
+                <default>false</default>
+                <label>Axway Sentinel</label>
+            </value>
+            <value>
+                <fullName>Bizagi</fullName>
+                <default>false</default>
+                <label>Bizagi</label>
+            </value>
+            <value>
+                <fullName>BizFlow</fullName>
+                <default>false</default>
+                <label>BizFlow</label>
+            </value>
+            <value>
+                <fullName>BiZZdesign</fullName>
+                <default>false</default>
+                <label>BiZZdesign</label>
+            </value>
+            <value>
+                <fullName>BlueKanGo</fullName>
+                <default>false</default>
+                <label>BlueKanGo</label>
+            </value>
+            <value>
+                <fullName>Blueprint (Unspecified product)</fullName>
+                <default>false</default>
+                <label>Blueprint (Unspecified product)</label>
+            </value>
+            <value>
+                <fullName>Blue Prism</fullName>
+                <default>false</default>
+                <label>Blue Prism</label>
+            </value>
+            <value>
+                <fullName>Blue Prism Cloud</fullName>
+                <default>false</default>
+                <label>Blue Prism Cloud</label>
+            </value>
+            <value>
+                <fullName>Bonita BPM</fullName>
+                <default>false</default>
+                <label>Bonita BPM</label>
+            </value>
+            <value>
+                <fullName>BP Logix</fullName>
+                <default>false</default>
+                <label>BP Logix</label>
+            </value>
+            <value>
+                <fullName>Bradford Networks</fullName>
+                <default>false</default>
+                <label>Bradford Networks</label>
+            </value>
+            <value>
+                <fullName>Camunda</fullName>
+                <default>false</default>
+                <label>Camunda</label>
+            </value>
+            <value>
+                <fullName>Casewise</fullName>
+                <default>false</default>
+                <label>Casewise</label>
+            </value>
+            <value>
+                <fullName>Celaton</fullName>
+                <default>false</default>
+                <label>Celaton</label>
+            </value>
+            <value>
+                <fullName>Celonis</fullName>
+                <default>false</default>
+                <label>Celonis</label>
+            </value>
+            <value>
+                <fullName>Comindware</fullName>
+                <default>false</default>
+                <label>Comindware</label>
+            </value>
+            <value>
+                <fullName>Conga Contracts</fullName>
+                <default>false</default>
+                <label>Conga Contracts</label>
+            </value>
+            <value>
+                <fullName>Cora SeQuence</fullName>
+                <default>false</default>
+                <label>Cora SeQuence</label>
+            </value>
+            <value>
+                <fullName>DocuSign CLM</fullName>
+                <default>false</default>
+                <label>DocuSign CLM</label>
+            </value>
+            <value>
+                <fullName>Everteam</fullName>
+                <default>false</default>
+                <label>Everteam</label>
+            </value>
+            <value>
+                <fullName>Flowable</fullName>
+                <default>false</default>
+                <label>Flowable</label>
+            </value>
+            <value>
+                <fullName>Form.com</fullName>
+                <default>false</default>
+                <label>Form.com</label>
+            </value>
+            <value>
+                <fullName>FortressIQ</fullName>
+                <default>false</default>
+                <label>FortressIQ</label>
+            </value>
+            <value>
+                <fullName>IBM Blueworks Live</fullName>
+                <default>false</default>
+                <label>IBM Blueworks Live</label>
+            </value>
+            <value>
+                <fullName>IBM Business Process Manager</fullName>
+                <default>false</default>
+                <label>IBM Business Process Manager</label>
+            </value>
+            <value>
+                <fullName>IBM Case Manager</fullName>
+                <default>false</default>
+                <label>IBM Case Manager</label>
+            </value>
+            <value>
+                <fullName>IBM Lotus Notes (HCL Notes)</fullName>
+                <default>false</default>
+                <label>IBM Lotus Notes (HCL Notes)</label>
+            </value>
+            <value>
+                <fullName>IBM Rational RequisitePro</fullName>
+                <default>false</default>
+                <label>IBM Rational RequisitePro</label>
+            </value>
+            <value>
+                <fullName>IBM WebSphere Business Modeler</fullName>
+                <default>false</default>
+                <label>IBM WebSphere Business Modeler</label>
+            </value>
+            <value>
+                <fullName>iGrafx</fullName>
+                <default>false</default>
+                <label>iGrafx</label>
+            </value>
+            <value>
+                <fullName>Informatica Business Process Management</fullName>
+                <default>false</default>
+                <label>Informatica Business Process Management</label>
+            </value>
+            <value>
+                <fullName>Infor Ming.le</fullName>
+                <default>false</default>
+                <label>Infor Ming.le</label>
+            </value>
+            <value>
+                <fullName>Infor Risk &amp; Compliance</fullName>
+                <default>false</default>
+                <label>Infor Risk &amp; Compliance</label>
+            </value>
+            <value>
+                <fullName>Intalio BPMS</fullName>
+                <default>false</default>
+                <label>Intalio BPMS</label>
+            </value>
+            <value>
+                <fullName>Intellect</fullName>
+                <default>false</default>
+                <label>Intellect</label>
+            </value>
+            <value>
+                <fullName>Kofax MarkView</fullName>
+                <default>false</default>
+                <label>Kofax MarkView</label>
+            </value>
+            <value>
+                <fullName>Kofax RPA</fullName>
+                <default>false</default>
+                <label>Kofax RPA</label>
+            </value>
+            <value>
+                <fullName>Kryon RPA</fullName>
+                <default>false</default>
+                <label>Kryon RPA</label>
+            </value>
+            <value>
+                <fullName>LivePlan</fullName>
+                <default>false</default>
+                <label>LivePlan</label>
+            </value>
+            <value>
+                <fullName>MEGA Hopex</fullName>
+                <default>false</default>
+                <label>MEGA Hopex</label>
+            </value>
+            <value>
+                <fullName>Micro Focus Business Availability Center</fullName>
+                <default>false</default>
+                <label>Micro Focus Business Availability Center</label>
+            </value>
+            <value>
+                <fullName>Micro Focus Business Process Monitor</fullName>
+                <default>false</default>
+                <label>Micro Focus Business Process Monitor</label>
+            </value>
+            <value>
+                <fullName>Micro Focus Solutions Business Manager</fullName>
+                <default>false</default>
+                <label>Micro Focus Solutions Business Manager</label>
+            </value>
+            <value>
+                <fullName>Microsoft Azure Logic Apps</fullName>
+                <default>false</default>
+                <label>Microsoft Azure Logic Apps</label>
+            </value>
+            <value>
+                <fullName>NetSuite SuiteFlex</fullName>
+                <default>false</default>
+                <label>NetSuite SuiteFlex</label>
+            </value>
+            <value>
+                <fullName>Nintex</fullName>
+                <default>false</default>
+                <label>Nintex</label>
+            </value>
+            <value>
+                <fullName>OmniFlow iBPS</fullName>
+                <default>false</default>
+                <label>OmniFlow iBPS</label>
+            </value>
+            <value>
+                <fullName>Ontraport</fullName>
+                <default>false</default>
+                <label>Ontraport</label>
+            </value>
+            <value>
+                <fullName>OpenText 360 for SharePoint</fullName>
+                <default>false</default>
+                <label>OpenText 360 for SharePoint</label>
+            </value>
+            <value>
+                <fullName>OpenText Cordys</fullName>
+                <default>false</default>
+                <label>OpenText Cordys</label>
+            </value>
+            <value>
+                <fullName>OpenText LiquidOffice</fullName>
+                <default>false</default>
+                <label>OpenText LiquidOffice</label>
+            </value>
+            <value>
+                <fullName>OpenText MBPM</fullName>
+                <default>false</default>
+                <label>OpenText MBPM</label>
+            </value>
+            <value>
+                <fullName>OpenText Process Suite Platform</fullName>
+                <default>false</default>
+                <label>OpenText Process Suite Platform</label>
+            </value>
+            <value>
+                <fullName>OpenText ProVision</fullName>
+                <default>false</default>
+                <label>OpenText ProVision</label>
+            </value>
+            <value>
+                <fullName>Oracle BPM</fullName>
+                <default>false</default>
+                <label>Oracle BPM</label>
+            </value>
+            <value>
+                <fullName>Orbus iServer</fullName>
+                <default>false</default>
+                <label>Orbus iServer</label>
+            </value>
+            <value>
+                <fullName>Pega BPM</fullName>
+                <default>false</default>
+                <label>Pega BPM</label>
+            </value>
+            <value>
+                <fullName>PegaRULES Process Commander (PRPC)</fullName>
+                <default>false</default>
+                <label>PegaRULES Process Commander (PRPC)</label>
+            </value>
+            <value>
+                <fullName>Pegasystems</fullName>
+                <default>false</default>
+                <label>Pegasystems</label>
+            </value>
+            <value>
+                <fullName>PNMsoft</fullName>
+                <default>false</default>
+                <label>PNMsoft</label>
+            </value>
+            <value>
+                <fullName>ProcessGold</fullName>
+                <default>false</default>
+                <label>ProcessGold</label>
+            </value>
+            <value>
+                <fullName>ProDiscovery</fullName>
+                <default>false</default>
+                <label>ProDiscovery</label>
+            </value>
+            <value>
+                <fullName>QPR ProcessAnalyzer</fullName>
+                <default>false</default>
+                <label>QPR ProcessAnalyzer</label>
+            </value>
+            <value>
+                <fullName>Rational System Architect</fullName>
+                <default>false</default>
+                <label>Rational System Architect</label>
+            </value>
+            <value>
+                <fullName>RFPIO</fullName>
+                <default>false</default>
+                <label>RFPIO</label>
+            </value>
+            <value>
+                <fullName>Rocket LegaSuite</fullName>
+                <default>false</default>
+                <label>Rocket LegaSuite</label>
+            </value>
+            <value>
+                <fullName>SAG webMethods</fullName>
+                <default>false</default>
+                <label>SAG webMethods</label>
+            </value>
+            <value>
+                <fullName>SAP Business Workflow</fullName>
+                <default>false</default>
+                <label>SAP Business Workflow</label>
+            </value>
+            <value>
+                <fullName>SAP Innovation Management</fullName>
+                <default>false</default>
+                <label>SAP Innovation Management</label>
+            </value>
+            <value>
+                <fullName>SAP Leonardo</fullName>
+                <default>false</default>
+                <label>SAP Leonardo</label>
+            </value>
+            <value>
+                <fullName>SAP Process Orchestration</fullName>
+                <default>false</default>
+                <label>SAP Process Orchestration</label>
+            </value>
+            <value>
+                <fullName>ServicePRO</fullName>
+                <default>false</default>
+                <label>ServicePRO</label>
+            </value>
+            <value>
+                <fullName>Siemens Teamcenter Visualization</fullName>
+                <default>false</default>
+                <label>Siemens Teamcenter Visualization</label>
+            </value>
+            <value>
+                <fullName>Signavio</fullName>
+                <default>false</default>
+                <label>Signavio</label>
+            </value>
+            <value>
+                <fullName>SirionLabs</fullName>
+                <default>false</default>
+                <label>SirionLabs</label>
+            </value>
+            <value>
+                <fullName>SmartBPM</fullName>
+                <default>false</default>
+                <label>SmartBPM</label>
+            </value>
+            <value>
+                <fullName>Software AG ARIS</fullName>
+                <default>false</default>
+                <label>Software AG ARIS</label>
+            </value>
+            <value>
+                <fullName>TIBCO Business Studio</fullName>
+                <default>false</default>
+                <label>TIBCO Business Studio</label>
+            </value>
+            <value>
+                <fullName>TIBCO Cloud Nimbus</fullName>
+                <default>false</default>
+                <label>TIBCO Cloud Nimbus</label>
+            </value>
+            <value>
+                <fullName>TOTVS Fluig</fullName>
+                <default>false</default>
+                <label>TOTVS Fluig</label>
+            </value>
+            <value>
+                <fullName>Tray.io</fullName>
+                <default>false</default>
+                <label>Tray.io</label>
+            </value>
+            <value>
+                <fullName>UiPath</fullName>
+                <default>false</default>
+                <label>UiPath</label>
+            </value>
+            <value>
+                <fullName>webMethods AgileApps</fullName>
+                <default>false</default>
+                <label>webMethods AgileApps</label>
+            </value>
+            <value>
+                <fullName>webMethods Optimize for Process</fullName>
+                <default>false</default>
+                <label>webMethods Optimize for Process</label>
+            </value>
+            <value>
+                <fullName>Workato</fullName>
+                <default>false</default>
+                <label>Workato</label>
+            </value>
+            <value>
+                <fullName>WorkflowGen</fullName>
+                <default>false</default>
+                <label>WorkflowGen</label>
+            </value>
+            <value>
+                <fullName>WorkFusion</fullName>
+                <default>false</default>
+                <label>WorkFusion</label>
+            </value>
+            <value>
+                <fullName>IBM Operational Decision Manager</fullName>
+                <default>false</default>
+                <label>IBM Operational Decision Manager</label>
+            </value>
+            <value>
+                <fullName>Salesforce.com Lightning Platform</fullName>
+                <default>false</default>
+                <label>Salesforce.com Lightning Platform</label>
+            </value>
+            <value>
+                <fullName>IBM Cloud Paks</fullName>
+                <default>false</default>
+                <label>IBM Cloud Paks</label>
+            </value>
+            <value>
+                <fullName>Red Hat Process Automation Manager</fullName>
+                <default>false</default>
+                <label>Red Hat Process Automation Manager</label>
+            </value>
+            <value>
+                <fullName>SAP SE Enterprise Applications</fullName>
+                <default>false</default>
+                <label>SAP SE Enterprise Applications</label>
+            </value>
+            <value>
+                <fullName>Laserfiche</fullName>
+                <default>false</default>
+                <label>Laserfiche</label>
+            </value>
+            <value>
+                <fullName>OutSystems</fullName>
+                <default>false</default>
+                <label>OutSystems</label>
+            </value>
+            <value>
+                <fullName>Salesforce Enterprise Applications</fullName>
+                <default>false</default>
+                <label>Salesforce Enterprise Applications</label>
+            </value>
+            <value>
+                <fullName>KissFlow</fullName>
+                <default>false</default>
+                <label>KissFlow</label>
+            </value>
+            <value>
+                <fullName>Mendix</fullName>
+                <default>false</default>
+                <label>Mendix</label>
+            </value>
+            <value>
+                <fullName>Conductor Searchlight</fullName>
+                <default>false</default>
+                <label>Conductor Searchlight</label>
+            </value>
+            <value>
+                <fullName>Servicenow Inc.</fullName>
+                <default>false</default>
+                <label>Servicenow Inc.</label>
+            </value>
+            <value>
+                <fullName>HCL Notes</fullName>
+                <default>false</default>
+                <label>HCL Notes</label>
+            </value>
+            <value>
+                <fullName>K2 Five</fullName>
+                <default>false</default>
+                <label>K2 Five</label>
+            </value>
+            <value>
+                <fullName>JBoss Enterprise BRMS</fullName>
+                <default>false</default>
+                <label>JBoss Enterprise BRMS</label>
+            </value>
+            <value>
+                <fullName>K2 blackpearl</fullName>
+                <default>false</default>
+                <label>K2 blackpearl</label>
+            </value>
+            <value>
+                <fullName>JBoss Enterprise Web Server</fullName>
+                <default>false</default>
+                <label>JBoss Enterprise Web Server</label>
+            </value>
+            <value>
+                <fullName>JBoss Seam Framework</fullName>
+                <default>false</default>
+                <label>JBoss Seam Framework</label>
+            </value>
+            <value>
+                <fullName>K2 Cloud</fullName>
+                <default>false</default>
+                <label>K2 Cloud</label>
+            </value>
+            <value>
+                <fullName>JBoss Enterprise Web Server (EWS)</fullName>
+                <default>false</default>
+                <label>JBoss Enterprise Web Server (EWS)</label>
+            </value>
+            <value>
+                <fullName>JBoss Enterprise Application Platform</fullName>
+                <default>false</default>
+                <label>JBoss Enterprise Application Platform</label>
+            </value>
+            <value>
+                <fullName>Flowable Work</fullName>
+                <default>false</default>
+                <label>Flowable Work</label>
+            </value>
+            <value>
+                <fullName>Pega Infinity</fullName>
+                <default>false</default>
+                <label>Pega Infinity</label>
+            </value>
+            <value>
+                <fullName>Windows Workflow Foundation</fullName>
+                <default>false</default>
+                <label>Windows Workflow Foundation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

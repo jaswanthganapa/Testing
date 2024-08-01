@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UltimateParentPartnerSegment__c</fullName>
+    <description>Partner Segment of the Hierarchy</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Hierarchy_Partner_Account_Reporting__c),
+&apos;Standard&apos;, 
+CASE(Hierarchy_Partner_Account_Reporting__r.Hierarchy_Partner_Segment__c,
+&quot;Key&quot;, &quot;Global Strategic Alliances&quot;,
+&quot;Focus&quot;, &quot;Focus&quot;,
+&quot;Standard&quot;
+))</formula>
+    <label>Ultimate Parent Partner Segment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

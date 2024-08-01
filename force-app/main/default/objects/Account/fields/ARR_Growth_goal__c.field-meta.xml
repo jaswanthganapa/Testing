@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARR_Growth_goal__c</fullName>
+    <description>used for account planning.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>There is an ARR growth goal from sales that is in line with account potential (fit score):
+
+ARR in 12 months
+ARR in 24 months</inlineHelpText>
+    <label>ARR Growth goal</label>
+    <length>10000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

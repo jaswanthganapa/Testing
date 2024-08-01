@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>G2Crowd_ActivityLevel__c</fullName>
+    <externalId>false</externalId>
+    <formula>G2Crowd_VisitingOrganization__r.G2Crowd__Activity_Level__c</formula>
+    <label>G2 Activity Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

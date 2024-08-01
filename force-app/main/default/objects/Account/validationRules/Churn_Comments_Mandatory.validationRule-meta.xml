@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Churn_Comments_Mandatory</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND (
+	$Setup.GlobalApplicationSettings__c.RunValidationRules__c,
+AND(OR(ISPICKVAL(ChurnReasons__c,&quot;&quot;)=FALSE, ISPICKVAL(RelationshipStatus__c ,&quot;Former&quot;)), ISBLANK(Churn_Comments__c),ISCHANGED(RelationshipStatus__c),ISCHANGED(ChurnReasons__c)))</errorConditionFormula>
+    <errorMessage>Please ensure the Churn Comments field is filled in.</errorMessage>
+</ValidationRule>

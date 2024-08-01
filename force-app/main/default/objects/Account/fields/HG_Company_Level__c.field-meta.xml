@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HG_Company_Level__c</fullName>
+    <description>Indicates the level of the given location in the corporate structure - &apos;Group HQ&apos; or &apos;Non Group HQ&apos; in HG Insights.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the level of the given location in the corporate structure - &apos;Group HQ&apos; or &apos;Non Group HQ&apos; in HG Insights.</inlineHelpText>
+    <label>HG Company Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

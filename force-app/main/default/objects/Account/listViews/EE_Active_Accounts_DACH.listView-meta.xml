@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EE_Active_Accounts_DACH</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CustomerSuccessOwner__c</columns>
+    <columns>CSMType__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ClosedOpportunities__c</columns>
+    <columns>OpenOpportunities__c</columns>
+    <columns>SalesTerritoryAE__c</columns>
+    <columns>SalesTargetAccount__c</columns>
+    <columns>ARR__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RelationshipStatus__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.INDUSTRY</field>
+        <operation>equals</operation>
+        <value>&quot;Telecommunications, Media &amp; Entertainment&quot;</value>
+    </filters>
+    <filters>
+        <field>EmployeesRange__c</field>
+        <operation>contains</operation>
+        <value>5001-10.000,10.000+</value>
+    </filters>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>DACH</value>
+    </filters>
+    <label>All Customer Accounts - DACH</label>
+</ListView>

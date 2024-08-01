@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engagement_Score__c</fullName>
+    <description>Using Camunda, Downloads, Events Registered, Meeting</description>
+    <externalId>false</externalId>
+    <formula>(SQLLast120Days__c)*3 + 
+(SQOLast120Days__c)*2 + 
+(AccountQualificationCallsLast120Days__c)*2 + 
+(Account_QualificationEventsLast120Days__c)*2+ 
+ContactEngagementLast120Days__c + 
+LeadEngagementLast120Days__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Last120 Days: SQL+SQO+LinkedInContacts + Qual Calls + Campaigns</inlineHelpText>
+    <label>deprecated - Engagement Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

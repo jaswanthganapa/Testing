@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HowIsCamundaBeingUsed__c</fullName>
+    <description>Rollup How Is Camunda Being Used</description>
+    <externalId>false</externalId>
+    <formula>if( or(MaxUsingCamundaContacts__c=3,   MaxUsingCamundaRollup__c  =3),&quot;In Production&quot;,
+if( or(MaxUsingCamundaContacts__c=2,  MaxUsingCamundaRollup__c  =2),&quot;In Development&quot;,
+if( or(MaxUsingCamundaContacts__c=1,  MaxUsingCamundaRollup__c  =1),&quot;Evaluating&quot;,&quot;&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Rollup How Is Camunda Being Used</inlineHelpText>
+    <label>How Is Camunda Being Used</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

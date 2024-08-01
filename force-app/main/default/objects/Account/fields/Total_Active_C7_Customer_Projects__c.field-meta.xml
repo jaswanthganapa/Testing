@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Active_C7_Customer_Projects__c</fullName>
+    <description>This field counts the total number of active C7 projects for this account</description>
+    <externalId>false</externalId>
+    <label>Total Active C7 Customer Projects</label>
+    <summarizedField>Opportunity.Total_Active_C7_Customer_Projects__c</summarizedField>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

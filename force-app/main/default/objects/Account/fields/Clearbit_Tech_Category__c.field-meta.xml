@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clearbit_Tech_Category__c</fullName>
+    <description>Tech Category Provided by Clearbit</description>
+    <externalId>false</externalId>
+    <label>Clearbit Tech Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>account_based_marketing</fullName>
+                <default>false</default>
+                <label>account_based_marketing</label>
+            </value>
+            <value>
+                <fullName>accounting_and_finance</fullName>
+                <default>false</default>
+                <label>accounting_and_finance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

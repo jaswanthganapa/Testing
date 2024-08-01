@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fit_Engagement_Score__c</fullName>
+    <description>Fit Score - Engagement Score</description>
+    <externalId>false</externalId>
+    <formula>X2024_Fit_Score__c&amp;&quot;-&quot;&amp; EngagementScoreABC__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Fit Score - Engagement Score</inlineHelpText>
+    <label>Fit-Engagement Score</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

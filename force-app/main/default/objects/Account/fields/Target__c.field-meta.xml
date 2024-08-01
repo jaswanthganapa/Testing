@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target__c</fullName>
+    <description>Identifies an Account as a Prospect or Customer Target</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is this an outbound Target?</inlineHelpText>
+    <label>Target</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>SDR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ADR</label>
+            </value>
+            <value>
+                <fullName>AE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AE</label>
+            </value>
+            <value>
+                <fullName>AE only Target</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AE only Target</label>
+            </value>
+            <value>
+                <fullName>Customer Target</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer Target (Legacy)</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Not a Target</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not a Target</label>
+            </value>
+            <value>
+                <fullName>Outbound Target</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Outbound Target</label>
+            </value>
+            <value>
+                <fullName>Partner Target</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Partner Target</label>
+            </value>
+            <value>
+                <fullName>Prospect Target</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Prospect Target (Legacy)</label>
+            </value>
+            <value>
+                <fullName>Tier 1</fullName>
+                <default>false</default>
+                <label>Tier 1</label>
+            </value>
+            <value>
+                <fullName>Tier 2</fullName>
+                <default>false</default>
+                <label>Tier 2</label>
+            </value>
+            <value>
+                <fullName>Tier 3</fullName>
+                <default>false</default>
+                <label>Tier 3</label>
+            </value>
+            <value>
+                <fullName>Top Down Target</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Top Down Target</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

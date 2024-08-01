@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CSM_ES_ARR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF((ARR__c / CURRENCYRATE(TEXT(CurrencyIsoCode))) &lt;= 39816.77, 0,
+IF((ARR__c / CURRENCYRATE(TEXT(CurrencyIsoCode))) &lt;= 57010.59, 0.2,
+IF((ARR__c / CURRENCYRATE(TEXT(CurrencyIsoCode))) &lt;= 79944.51, 0.4,
+IF((ARR__c / CURRENCYRATE(TEXT(CurrencyIsoCode))) &lt;= 141248.61, 0.6,
+IF((ARR__c / CURRENCYRATE(TEXT(CurrencyIsoCode))) &lt;= 296775.25, 0.8,
+1
+)
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CSM ES - ARR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

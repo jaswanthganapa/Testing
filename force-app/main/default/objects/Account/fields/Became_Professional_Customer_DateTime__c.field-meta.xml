@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Became_Professional_Customer_DateTime__c</fullName>
+    <description>Timestamp on when a customer became a Professional/Starter Plan Customer
+REV-5823 - Populated on lead conversion</description>
+    <externalId>false</externalId>
+    <label>Became Professional/Starter Customer DT</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

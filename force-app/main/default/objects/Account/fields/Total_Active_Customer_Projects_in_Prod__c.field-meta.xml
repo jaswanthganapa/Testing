@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Active_Customer_Projects_in_Prod__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Active Customer Projects in Prod</label>
+    <summarizedField>Opportunity.Total_Active_Customer_Projects_in_Prod__c</summarizedField>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

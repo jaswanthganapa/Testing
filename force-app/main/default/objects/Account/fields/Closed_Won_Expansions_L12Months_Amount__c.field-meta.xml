@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Won_Expansions_L12Months_Amount__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Total amount of closed won expansions in last 24 months</description>
+    <externalId>false</externalId>
+    <label>Closed Won Expansions L24Months (Amount)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

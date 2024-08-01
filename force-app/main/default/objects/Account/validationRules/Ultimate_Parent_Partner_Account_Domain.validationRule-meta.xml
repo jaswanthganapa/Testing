@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ultimate_Parent_Partner_Account_Domain</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+$Setup.GlobalApplicationSettings__c.RunValidationRules__c,AND(ISCHANGED(EmailDomain__c),ISBLANK(EmailDomain__c), Partner_Account_Ultimate_Parent_c__c = TRUE))</errorConditionFormula>
+    <errorMessage>Email Domain is required for Accounts marked as &quot;Ultimate Parent of Partner Account&quot;.</errorMessage>
+</ValidationRule>

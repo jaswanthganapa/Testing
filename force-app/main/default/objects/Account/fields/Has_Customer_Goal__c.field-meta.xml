@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Customer_Goal__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Whether customer has a goal added to Gainsight. 
+
+Source: GS Rules Engine
+
+Owner: CS</description>
+    <externalId>false</externalId>
+    <label>Has Customer Goal</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartnerCommentsOnSegmentation__c</fullName>
+    <description>Contains detailed comments on partner account segmentation changes</description>
+    <externalId>false</externalId>
+    <formula>Hierarchy_Partner_Account_Reporting__r.PartnerCommentsOnSegmentation__c</formula>
+    <label>Partner Comments on Segmentation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

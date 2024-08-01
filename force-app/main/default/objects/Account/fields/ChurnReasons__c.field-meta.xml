@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChurnReasons__c</fullName>
+    <externalId>false</externalId>
+    <label>Churn Reasons</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Downgraded to CE version</fullName>
+                <default>false</default>
+                <label>Downgraded to CE version</label>
+            </value>
+            <value>
+                <fullName>Merger/Acquisition</fullName>
+                <default>false</default>
+                <label>Merger/Acquisition</label>
+            </value>
+            <value>
+                <fullName>Customer in financial distress</fullName>
+                <default>false</default>
+                <label>Customer in financial distress</label>
+            </value>
+            <value>
+                <fullName>Canceled due to nonpayment</fullName>
+                <default>false</default>
+                <label>Canceled due to nonpayment</label>
+            </value>
+            <value>
+                <fullName>Projects Canceled/Delayed</fullName>
+                <default>false</default>
+                <label>Projects Canceled/Delayed</label>
+            </value>
+            <value>
+                <fullName>Customer canceled due to COVID-19</fullName>
+                <default>false</default>
+                <label>Customer canceled due to COVID-19</label>
+            </value>
+            <value>
+                <fullName>Replaced by Competitor</fullName>
+                <default>false</default>
+                <label>Replaced by Competitor</label>
+            </value>
+            <value>
+                <fullName>Contract Migrated</fullName>
+                <default>false</default>
+                <label>Contract Migrated</label>
+            </value>
+            <value>
+                <fullName>Supported Evaluation</fullName>
+                <default>false</default>
+                <label>Supported Evaluation</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

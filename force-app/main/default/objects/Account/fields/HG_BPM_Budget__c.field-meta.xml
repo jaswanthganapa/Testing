@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HG_BPM_Budget__c</fullName>
+    <description>Amount company has in 2021 budget for BPM</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Covid adjusted 2021 BPM Spend</inlineHelpText>
+    <label>Annual BPM Budget</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

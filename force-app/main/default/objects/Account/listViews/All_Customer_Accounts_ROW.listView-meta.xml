@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Customer_Accounts_ROW</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CustomerSuccessOwner__c</columns>
+    <columns>CSMType__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ClosedOpportunities__c</columns>
+    <columns>OpenOpportunities__c</columns>
+    <columns>SalesTerritoryAE__c</columns>
+    <columns>SalesTargetAccount__c</columns>
+    <columns>ARR__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RelationshipStatus__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.StandardAccount</value>
+    </filters>
+    <filters>
+        <field>SalesTeam__c</field>
+        <operation>equals</operation>
+        <value>ULA</value>
+    </filters>
+    <label>All Customer Accounts - ULA</label>
+</ListView>

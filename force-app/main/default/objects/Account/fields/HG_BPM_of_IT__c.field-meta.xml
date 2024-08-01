@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HG_BPM_of_IT__c</fullName>
+    <description>% of IT budget earmarked for BPM, covid adjusted, for 2021</description>
+    <externalId>false</externalId>
+    <inlineHelpText>% of IT budget earmarked for BPM, covid adjusted, for 2021</inlineHelpText>
+    <label>HG BPM % of IT</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

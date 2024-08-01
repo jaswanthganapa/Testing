@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rattle_Test__c</fullName>
+    <description>The technical description for the &quot;Slack Channel ID&quot; field on the Account object would be a URL(255) field that stores the unique identifier (ID) of the corresponding Slack channel associated with the account.</description>
+    <externalId>false</externalId>
+    <label>Slack Channel ID</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

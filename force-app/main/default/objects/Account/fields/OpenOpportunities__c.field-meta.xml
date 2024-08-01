@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpenOpportunities__c</fullName>
+    <description>New/Expand open SQOs https://camunda.slack.com/archives/GR1CZP737/p1661423480276299</description>
+    <externalId>false</externalId>
+    <inlineHelpText>New/Expand open SQOs</inlineHelpText>
+    <label>Open Opportunities</label>
+    <summaryFilterItems>
+        <field>Opportunity.StageName</field>
+        <operation>notEqual</operation>
+        <value>Closed Won, Closed Lost</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.BecameNurturing__c</field>
+        <operation>lessOrEqual</operation>
+        <value>1/1/2200</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.Type</field>
+        <operation>equals</operation>
+        <value>New, Expand</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

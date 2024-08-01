@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Leads_with_Activated_c8_Trial__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>populated by rollup helper - number of related leads with an activated c8 trial</description>
+    <externalId>false</externalId>
+    <label># Related Leads with Activated c8 Trial</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Partner_KPI_Targets_Achieved__c</fullName>
+    <description>The Number of KPI targets achieved by the partner calculated during the partner segmentation service</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Number of KPI targets achieved by the partner for its current Segment (Key or Focus)</inlineHelpText>
+    <label># of Partner KPI Targets Achieved</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

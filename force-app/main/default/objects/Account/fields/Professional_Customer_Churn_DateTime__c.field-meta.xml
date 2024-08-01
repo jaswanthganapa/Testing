@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Professional_Customer_Churn_DateTime__c</fullName>
+    <description>Timestamp on when Professional/Starter Plan Customer churned 
+REV-5823 - Populated on lead conversion Manually populated until BS automates</description>
+    <externalId>false</externalId>
+    <label>Professional/Starter Customer Churn DT</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

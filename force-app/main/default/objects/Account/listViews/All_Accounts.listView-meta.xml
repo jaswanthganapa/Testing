@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>SalesTeam__c</columns>
+    <columns>ChurnReasons__c</columns>
+    <columns>ContractExpirationDate__c</columns>
+    <columns>CSMStatus__c</columns>
+    <columns>RelationshipStatus__c</columns>
+    <columns>Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Partner_Account</value>
+    </filters>
+    <filters>
+        <field>SalesTeam__c</field>
+        <operation>equals</operation>
+        <value>NA - Corporate,NA - Enterprise</value>
+    </filters>
+    <filters>
+        <field>RelationshipStatus__c</field>
+        <operation>notEqual</operation>
+        <value>Former</value>
+    </filters>
+    <label>All Partner Accounts - NA</label>
+</ListView>

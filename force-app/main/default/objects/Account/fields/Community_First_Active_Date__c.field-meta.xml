@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_First_Active_Date__c</fullName>
+    <description>Date of the first activity associated with this organization. Populated by CommonRoom sync</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date of first activity</inlineHelpText>
+    <label>Community - First Active Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

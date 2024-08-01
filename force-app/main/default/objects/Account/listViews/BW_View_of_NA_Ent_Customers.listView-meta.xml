@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BW_View_of_NA_Ent_Customers</fullName>
+    <booleanFilter>1 AND 3 AND (2 OR 4)</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CommentsContract__c</columns>
+    <columns>YearsCustomer__c</columns>
+    <columns>CommentsExpansion__c</columns>
+    <columns>CoE_Implemented__c</columns>
+    <columns>ContractDate__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CustomerSuccessOwner__c</columns>
+    <columns>ARR__c</columns>
+    <columns>OpenOpportunities__c</columns>
+    <columns>SalesTerritoryAE__c</columns>
+    <columns>CoE_Partner_involvement__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>Rattle_Test__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.StandardAccount</value>
+    </filters>
+    <filters>
+        <field>Total_Children_Accounts_ARR__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>jon.sanc,Garth,patricia,Tim,josh.roc</value>
+    </filters>
+    <filters>
+        <field>OpenOpportunities__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>BW View of NA Ent Customers</label>
+</ListView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Customer_Accounts_in_Media_Telecom</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>CustomerSuccessOwner__c</columns>
+    <columns>CSMType__c</columns>
+    <columns>SalesTeam__c</columns>
+    <columns>ClosedOpportunities__c</columns>
+    <columns>OpenOpportunities__c</columns>
+    <columns>ACCOUNT.LAST_ACTIVITY</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+    <columns>Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RelationshipStatus__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.StandardAccount</value>
+    </filters>
+    <filters>
+        <field>Industry__c</field>
+        <operation>equals</operation>
+        <value>&quot;Telecommunications, Media &amp; Entertainment&quot;</value>
+    </filters>
+    <label>All Customer Accounts in Media &amp; Telecom</label>
+</ListView>

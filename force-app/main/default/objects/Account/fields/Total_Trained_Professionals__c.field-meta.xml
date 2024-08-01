@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Trained_Professionals__c</fullName>
+    <externalId>false</externalId>
+    <formula>Total_Trained_Leads_Rollup__c +  Total_Trained_Contacts_Rollup__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Field is updated automatically every day (@ 6am Berlin time). Includes only data since Q3 2020.</inlineHelpText>
+    <label>Total Training Attendees</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

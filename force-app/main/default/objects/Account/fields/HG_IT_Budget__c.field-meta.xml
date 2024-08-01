@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HG_IT_Budget__c</fullName>
+    <description>Covid Adjusted IT Spend</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Covid Adjusted IT Spend for 2021</inlineHelpText>
+    <label>Annual IT Budget</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

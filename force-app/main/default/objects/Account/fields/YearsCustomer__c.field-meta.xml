@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>YearsCustomer__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(TEXT(RelationshipStatus__c)&lt;&gt;&apos;Former&apos;,TODAY() &gt;= Initial_Contract_Effective_Start_Date__c),
+   IF(CEILING((TODAY()-Initial_Contract_Effective_Start_Date__c )/360)=0,1,
+      CEILING((TODAY()-Initial_Contract_Effective_Start_Date__c )/360)),0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Shows in what year a customer is in their journey with Camunda. e.g. If a brand new customer, this field will be 1</inlineHelpText>
+    <label>Year as Customer</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

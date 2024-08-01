@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_LastADRActivityDate__c</fullName>
+    <description>Last date when an Account Development Representative did an activity in the account contacts. Calculated in Apex Rollup.</description>
+    <externalId>false</externalId>
+    <label>Contact Last ADR Activity Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

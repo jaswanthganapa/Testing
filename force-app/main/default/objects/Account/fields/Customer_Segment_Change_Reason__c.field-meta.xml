@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Segment_Change_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer Segment - Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Segment assigned based on ARR &amp; Year as Customer</fullName>
+                <default>false</default>
+                <label>Segment assigned based on current ARR, active pipeline and potential ARR</label>
+            </value>
+            <value>
+                <fullName>Demoted because lack of Expand Pipeline</fullName>
+                <default>false</default>
+                <label>Demoted because lack of Expand Pipeline</label>
+            </value>
+            <value>
+                <fullName>Promoted because of Active Pipeline</fullName>
+                <default>false</default>
+                <label>Promoted because of Active Pipeline</label>
+            </value>
+            <value>
+                <fullName>Promoted because of Potential ARR</fullName>
+                <default>false</default>
+                <label>Promoted because of Potential ARR</label>
+            </value>
+            <value>
+                <fullName>Promoted because of Active Pipeline &amp; Potential ARR</fullName>
+                <default>false</default>
+                <label>Promoted because of Active Pipeline &amp; Potential ARR</label>
+            </value>
+            <value>
+                <fullName>Promoted because of other reasons</fullName>
+                <default>false</default>
+                <label>Promoted because of other reasons</label>
+            </value>
+            <value>
+                <fullName>Demoted because of Active Pipeline</fullName>
+                <default>false</default>
+                <label>Demoted because of Active Pipeline</label>
+            </value>
+            <value>
+                <fullName>Demoted because of Potential ARR</fullName>
+                <default>false</default>
+                <label>Demoted because of Potential ARR</label>
+            </value>
+            <value>
+                <fullName>Demoted because of Active Pipeline &amp; Potential ARR</fullName>
+                <default>false</default>
+                <label>Demoted because of Active Pipeline &amp; Potential ARR</label>
+            </value>
+            <value>
+                <fullName>Promoted because of Expand Pipeline</fullName>
+                <default>false</default>
+                <label>Promoted because of Expand Pipeline</label>
+            </value>
+            <value>
+                <fullName>Demoted because of other reasons</fullName>
+                <default>false</default>
+                <label>Demoted because of other reasons</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

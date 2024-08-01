@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Score__c</fullName>
+    <description>Based on Industry</description>
+    <externalId>false</externalId>
+    <formula>Case(Industry,
+&quot;Automotive&quot;,50,
+&quot;Banking &amp; Financial Services&quot;,100,
+&quot;Consulting &amp; Business Services&quot;,50,
+&quot;Healthcare&quot;,25,
+&quot;Insurance&quot;,100,
+&quot;Life Sciences, Pharma, &amp; Biotech&quot;,25,
+&quot;Logistics &amp; Transportation&quot;,75,
+&quot;Manufacturing&quot;,50,
+&quot;Public Sector, Government and Education&quot;,0,
+&quot;Retail&quot;,50,
+&quot;Software &amp; Technology&quot;,100,
+&quot;Telecommunications, Media &amp; Entertainment&quot;,100,
+&quot;Utilities&quot;,100,
+0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Industry Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NumberofSessions__c</fullName>
+    <description>Rollup from contacts/leads</description>
+    <externalId>false</externalId>
+    <formula>ContactNumberofSessionsRollup__c + Lead_Number_of_Sessions_Rollup__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText># of Sessions from Leads/Contacts</inlineHelpText>
+    <label>Number of Sessions</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

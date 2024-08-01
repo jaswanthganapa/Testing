@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segment_Change_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Segment Change Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Segment assigned based on Partner KPI result</fullName>
+                <default>false</default>
+                <label>Segment assigned based on Partner KPI result</label>
+            </value>
+            <value>
+                <fullName>Promoted due to tracking ahead of KPIs</fullName>
+                <default>false</default>
+                <label>Promoted due to tracking ahead of KPIs</label>
+            </value>
+            <value>
+                <fullName>Demoted due to falling behind KPIs</fullName>
+                <default>false</default>
+                <label>Demoted due to falling behind KPIs</label>
+            </value>
+            <value>
+                <fullName>Promoted because of other reasons</fullName>
+                <default>false</default>
+                <label>Promoted because of other reasons</label>
+            </value>
+            <value>
+                <fullName>Demoted because of other reasons</fullName>
+                <default>false</default>
+                <label>Demoted because of other reasons</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

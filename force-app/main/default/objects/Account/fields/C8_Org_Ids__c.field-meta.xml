@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C8_Org_Ids__c</fullName>
+    <description>List or C8 org ids, populated via the data warehouse</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List or C8 org ids</inlineHelpText>
+    <label>C8 Org Ids</label>
+    <length>2000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

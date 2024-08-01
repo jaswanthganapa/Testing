@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Leads_with_First_Strike__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>populated by rollup helper - the number of related leads on an account that have hit first strike</description>
+    <externalId>false</externalId>
+    <label># Related Leads with First Strike</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

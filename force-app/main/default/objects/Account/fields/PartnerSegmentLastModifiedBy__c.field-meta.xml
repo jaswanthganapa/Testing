@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartnerSegmentLastModifiedBy__c</fullName>
+    <description>Name of the user who last modified the hierarchy partner segmentation</description>
+    <externalId>false</externalId>
+    <formula>Hierarchy_Partner_Account_Reporting__r.Hierarchy_Segment_Last_Overridden_By__c</formula>
+    <label>Partner Segment - Last Modified By</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ABX_RelatedWonOpps__c</fullName>
+    <externalId>false</externalId>
+    <label>ABX_RelatedWonOpps</label>
+    <summaryFilterItems>
+        <field>Opportunity.IsWonABX__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.Type</field>
+        <operation>equals</operation>
+        <value>New,Expand</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.Expansion_Subtype__c</field>
+        <operation>notEqual</operation>
+        <value>Contractually Agreed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

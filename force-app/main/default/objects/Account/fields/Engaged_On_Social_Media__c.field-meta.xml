@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engaged_On_Social_Media__c</fullName>
+    <description>From DevRel</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Forum, GitHub, Twitter, Slack. Updated Quarterly by DevRel</inlineHelpText>
+    <label># of Social Media Activities</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Certified_Professionals__c</fullName>
+    <externalId>false</externalId>
+    <formula>Total_Certified_Contacts_Rollup__c + Total_Certified_Leads_Rollup__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Field is updated every month around the 5th working day with the data from the previous month after manual data upload.</inlineHelpText>
+    <label>Total Certified Professionals</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

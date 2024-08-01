@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoE_responsibilities__c</fullName>
+    <externalId>false</externalId>
+    <label>CoE responsibilities</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Enablement</fullName>
+                <default>false</default>
+                <label>Enablement</label>
+            </value>
+            <value>
+                <fullName>Governance</fullName>
+                <default>false</default>
+                <label>Governance</label>
+            </value>
+            <value>
+                <fullName>Solution delivery</fullName>
+                <default>false</default>
+                <label>Solution delivery</label>
+            </value>
+            <value>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+                <label>Consulting</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+            <value>
+                <fullName>Providing accelerators</fullName>
+                <default>false</default>
+                <label>Providing accelerators</label>
+            </value>
+            <value>
+                <fullName>Evangelism</fullName>
+                <default>false</default>
+                <label>Evangelism</label>
+            </value>
+            <value>
+                <fullName>Managing Community of Practice</fullName>
+                <default>false</default>
+                <label>Managing Community of Practice</label>
+            </value>
+            <value>
+                <fullName>IT Operations</fullName>
+                <default>false</default>
+                <label>IT Operations</label>
+            </value>
+            <value>
+                <fullName>Providing managed service</fullName>
+                <default>false</default>
+                <label>Providing managed service</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

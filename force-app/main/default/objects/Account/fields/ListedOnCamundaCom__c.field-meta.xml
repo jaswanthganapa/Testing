@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ListedOnCamundaCom__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Indication if the logo is posted on the website or can be added.</inlineHelpText>
+    <label>Listed on Camunda.com</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>To Do</fullName>
+                <default>false</default>
+                <label>To Do</label>
+            </value>
+            <value>
+                <fullName>Done</fullName>
+                <default>false</default>
+                <label>Done</label>
+            </value>
+            <value>
+                <fullName>Not Allowed</fullName>
+                <default>false</default>
+                <label>Not Allowed</label>
+            </value>
+            <value>
+                <fullName>To Be Removed</fullName>
+                <default>false</default>
+                <label>To Be Removed</label>
+            </value>
+            <value>
+                <fullName>Removed</fullName>
+                <default>false</default>
+                <label>Removed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

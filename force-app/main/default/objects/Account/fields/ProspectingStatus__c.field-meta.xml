@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProspectingStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>(Not In Use) Prospecting Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>To Be Targeted</fullName>
+                <default>false</default>
+                <label>To Be Targeted Next Cohort</label>
+            </value>
+            <value>
+                <fullName>Actively prospecting (working)</fullName>
+                <default>false</default>
+                <label>Actively prospecting (working)</label>
+            </value>
+            <value>
+                <fullName>Interest (response received)</fullName>
+                <default>false</default>
+                <label>Interest (response received)</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+            <value>
+                <fullName>Future interest</fullName>
+                <default>false</default>
+                <label>Future interest</label>
+            </value>
+            <value>
+                <fullName>Non responsive</fullName>
+                <default>false</default>
+                <label>Non responsive</label>
+            </value>
+            <value>
+                <fullName>Deprioritized (not interested)</fullName>
+                <default>false</default>
+                <label>Deprioritized</label>
+            </value>
+            <value>
+                <fullName>Growthonics</fullName>
+                <default>false</default>
+                <label>Growthonics</label>
+            </value>
+            <value>
+                <fullName>Contacted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contacted</label>
+            </value>
+            <value>
+                <fullName>Nurture</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nurture</label>
+            </value>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Release</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Release</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
